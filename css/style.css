@@ -1,0 +1,290 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: '	Myriad Pro',sans-serif;
+}
+
+#home-back {
+     background: linear-gradient(to bottom right,rgba(52,68,173,.9),rgba(47,125,205,0.9)),url(../img/heading.png);
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
+clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+
+}
+
+.home-content {
+height: 580px;
+}
+
+.home-text h1 {
+	font-size: 32px;
+	color: #fff;
+	text-align: left;
+	font-weight: 700;
+	line-height: 38px;
+
+}
+
+.home-texts {
+	margin-top: 42%;
+	margin-left: 8%;
+}
+
+
+.home-text p {
+	font-size: 16px;
+	color: #c6c8ca;
+	margin-top: 20px;
+
+}
+
+.form-ariya{
+	background: #fff;
+	padding: 50px;
+	border-radius: 10px;
+}
+.warp h3 {
+	text-align: center;
+	color: #235377;
+	font-size: 20px;
+	font-weight: bold;;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+input[type=text] {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 12px 5px;
+	background: none;
+	outline: none;
+	border: 1px solid rgba(130,138,144,0.4);
+	color: rgb(130,138,144);
+	border-radius: 12px;
+	margin-top: 13px;
+	font-size: 14px;
+	padding-left: 28px;
+}
+
+input[type=submit] {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 0;
+	outline: none;
+	border: none;
+	background: #2ea1fc;
+	border-radius: 20px;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 15px;
+	transition: all 400ms linear;
+}
+
+input[type=submit]:hover {
+	background: #235377;
+	opacity: 0.8;
+}
+
+.warp {
+	max-width: 335px;
+	max-height: 318px;
+	border-radius: 20px;
+	margin: auto;
+	background: #fff;
+	box-sizing: border-box;
+    padding: 29px;
+	color: #8c9399;
+	margin-top: 24%;
+}
+.icon-heading h3 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #235377;
+    margin: 0;
+}
+
+.icon-heading p {
+	text-align: center;
+	color: #9da3a8;
+	font-size: 15px;
+	min-width: 90%;
+	line-height: 22px;
+	padding: 18px;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.services-heading h1 {
+	color: #235377;
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+	padding: 80px 0;
+}
+
+#section {
+	padding: 80px 0;
+}
+
+.icon-heading {
+	text-align: center;
+}
+
+.icon-heading img {
+	padding: 10px;
+}
+
+.ser-width {
+	width: 100%;
+}
+
+.half-padding {
+	padding-top: 30px;
+}
+
+.step-img {
+	padding-left: 22%;
+}
+
+.heading-step {
+	padding-top: 16%;
+	padding-right: 20%;
+}
+
+.heading-step h3 {
+	text-transform: uppercase;
+	color: #235377;
+	font-size: 32px;
+	padding-bottom: 16px;
+	margin: 0;
+}
+
+.heading-step p {
+	text-align: center;
+	color: #9da3a8;
+	font-size: 15px;
+	padding-right: 34%;
+}
+
+.heading-step-3 {
+	    padding-top: 16%;
+	    padding-left: 20%;
+}
+
+.heading-step-3 p {
+	text-align: center;
+	color: #9da3a8;
+	font-size: 15px;
+	padding-right: 34%;
+}
+
+.heading-step-3 h3 {
+	text-transform: uppercase;
+	color: #235377;
+	font-size: 32px;
+	padding-bottom: 16px;
+	margin: 0;
+}
+
+.row-3 {
+	padding: 10% 0;
+}
+
+.testi-heading h6 {
+	font-size: 16px;
+	color: #a9c1d2;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+}
+
+.testi-heading h1 {
+	color: #235377;
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+}
+
+#testimonial {
+	background: #78c7ff url(../img/icon/mini-icons.png);
+	height: 480px;
+	width: 100%;
+	clip-path: polygon(0% 10%,100% 0%,100% 100%,0% 100%);
+}
+
+.text-box {
+	background: #fff;
+	width: 72%;
+	border-radius: 8px;
+	min-height: 60px;
+	box-shadow: 1px 1px 26px 5px rgba(0,0,0,0.6);
+}
+
+.text-box p {
+	color: #9da3a8;
+	font-size: 16px;
+	padding: 16px;
+	line-height: 20px;
+}
+
+.box-1 {
+    width: 44px;
+    height: 48px;
+	background: #fff;
+	margin: 0;
+	margin-left: 58%;
+    margin-top: -24px;
+-webkit-clip-path: polygon(73% 0, 12% 0, 55% 79%);
+clip-path: polygon(73% 0, 12% 0, 55% 79%);
+}
+
+.box-img {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background: #fff;
+}
+
+.box-text h6 {
+	font-size: 20px;
+	font-weight: bold;
+	color: grey;
+	color: #fff;
+	margin: 0;
+}
+
+.icons-last-row {
+	padding-bottom: 10%;
+}
+
+.box-text p {
+	font-size: 14px;
+	color: #fff;
+	margin: 0;
+}
+
+.box-img img {
+	margin-right: 0;
+}
+
+.box-img{
+	float: left;
+}
+
+.box-text {
+    padding: 10px;
+    margin-left: 12%;
+}
+
+.row-top {
+padding-top: -10px;
+margin-top: -10px;
+z-index: 100;
+}
+
